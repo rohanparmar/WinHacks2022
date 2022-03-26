@@ -21,7 +21,7 @@
 
 2.) Express
 
-3.) MongoDB
+3.) PostGRES
 
 4.) Heroku
 

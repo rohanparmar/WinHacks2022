@@ -6,13 +6,22 @@
 
 
 **Basic Idea:**
-1.) 
+
+1.) Revamp website for WE-SPARK Health Institute
+
+2.) Make a client side and a server side
+
+3.) 
 
 
 
 **Frameworks used:**
 
-1.) 
+1.) Node
+
+2.) Express
+
+3.) Heroku
 
 
 **Authors: Saurab Dhir, Misha Sinitcyn, Vedant Jain, Rohan Parmar**

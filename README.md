@@ -17,11 +17,13 @@
 
 **Frameworks used:**
 
-1.) Node
+1.) NodeJS
 
 2.) Express
 
-3.) Heroku
+3.) MongoDB
+
+4.) Heroku
 
 
 **Authors: Saurab Dhir, Misha Sinitcyn, Vedant Jain, Rohan Parmar**

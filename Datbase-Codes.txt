@@ -1,29 +1,17 @@
 Creating Table:
 
-    CREATE table job (
-        jobTitle VARCHAR(50),
-        jobponsor VARCHAR(50),
-        jobponsorEmail VARCHAR(50),
-        jobAffiliation VARCHAR(50),
-        jobTask VARCHAR(400),
-        jobDescription VARCHAR(400),
-        jobDuration VARCHAR(20)
-        jobID SERIAL UNIQUE,
-    );
+    CREATE table job (jobTitle VARCHAR(50), jobSponsor VARCHAR(50), jobSponsorEmail VARCHAR(50), jobAffiliation VARCHAR(50), jobTask VARCHAR(400), jobDescription VARCHAR(400), jobDuration VARCHAR(20), jobApplicants VARCHAR(255), jobID SERIAL UNIQUE);
 
 Delete !ALL! data inside the table:
-    
     TRUNCATE TABLE job;
 
 Adding data inside the table:
-
-    INSERT INTO job VALUES(Title, Description, StartDate,EndDate, Wage, Qualification, id)
+    INSERT INTO job VALUES('Title', 'Sponsor Name', 'SponsorEmail@outlook.com', 'Affiliation', 'Task', 'Description', 'Duration', '');
 
 Deleting a row (USING UNIQUE ID):
 
-    DELETE FROM job WHERE id = 'SpecificID'
+    DELETE FROM job WHERE jobID = 1;
 
 Adding Email to the Table Data:
-
     SELECT * FROM job;
-    UPDATE job SET email=concat(email,',', 'EmailFromUser') where ID = 'IDofTheNewUser'
+    UPDATE job SET jobApplicants=concat(jobApplicants,'myemail@outlook.com',',') where jobID = 2;
